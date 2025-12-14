@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_200"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/main_LAY_hearts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_margin">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/main_IMG_heart0"
+            android:layout_width="@dimen/heart_size"
+            android:layout_height="@dimen/heart_size"
+            app:srcCompat="@drawable/heart" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/main_IMG_heart1"
+            android:layout_width="@dimen/heart_size"
+            android:layout_height="@dimen/heart_size"
+            android:layout_marginStart="2dp"
+            app:srcCompat="@drawable/heart" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/main_IMG_heart2"
+            android:layout_width="@dimen/heart_size"
+            android:layout_height="@dimen/heart_size"
+            android:layout_marginStart="2dp"
+            app:srcCompat="@drawable/heart" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <!-- Logical Matrix -->
+    <LinearLayout
+        android:id="@+id/main_LAY_matrix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/main_LAY_hearts"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp" >
+
+
+        <!-- Row 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_00" android:layout_width="80dp" android:layout_height="60dp"/>
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_01" android:layout_width="80dp" android:layout_height="60dp"/>
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_02" android:layout_width="80dp" android:layout_height="60dp"/>
+        </LinearLayout>
+
+        <!-- Row 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_10" android:layout_width="80dp" android:layout_height="60dp"/>
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_11" android:layout_width="80dp" android:layout_height="60dp"/>
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_12" android:layout_width="80dp" android:layout_height="60dp"/>
+        </LinearLayout>
+
+        <!-- Row 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_20" android:layout_width="80dp" android:layout_height="60dp"/>
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_21" android:layout_width="80dp" android:layout_height="60dp"/>
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_22" android:layout_width="80dp" android:layout_height="60dp"/>
+        </LinearLayout>
+
+        <!-- Row 4 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_30" android:layout_width="80dp" android:layout_height="60dp"/>
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_31" android:layout_width="80dp" android:layout_height="60dp"/>
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_32" android:layout_width="80dp" android:layout_height="60dp"/>
+        </LinearLayout>
+
+        <!-- Row 5 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_40" android:layout_width="80dp" android:layout_height="60dp"/>
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_41" android:layout_width="80dp" android:layout_height="60dp"/>
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_42" android:layout_width="80dp" android:layout_height="60dp"/>
+        </LinearLayout>
+
+        <!-- Row 6 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_50" android:layout_width="80dp" android:layout_height="60dp"/>
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_51" android:layout_width="80dp" android:layout_height="60dp"/>
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_52" android:layout_width="80dp" android:layout_height="60dp"/>
+        </LinearLayout>
+
+        <!-- Row 7 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_60" android:layout_width="80dp" android:layout_height="60dp"/>
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_61" android:layout_width="80dp" android:layout_height="60dp"/>
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_62" android:layout_width="80dp" android:layout_height="60dp"/>
+        </LinearLayout>
+
+        <!-- Row 8 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_70" android:layout_width="80dp" android:layout_height="60dp"/>
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_71" android:layout_width="80dp" android:layout_height="60dp"/>
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_72" android:layout_width="80dp" android:layout_height="60dp"/>
+        </LinearLayout>
+
+        <!-- Row 9 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_80" android:layout_width="80dp" android:layout_height="60dp"/>
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_81" android:layout_width="80dp" android:layout_height="60dp"/>
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_82" android:layout_width="80dp" android:layout_height="60dp"/>
+        </LinearLayout>
+
+        <!-- Row 10 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_90" android:layout_width="80dp" android:layout_height="60dp"/>
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_91" android:layout_width="80dp" android:layout_height="60dp"/>
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_92" android:layout_width="80dp" android:layout_height="60dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/main_FAB_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/left"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_alignParentStart="true"
+        app:fabSize="normal"
+        app:backgroundTint="@color/pink_button"
+        app:tint="@color/white"
+        android:contentDescription="@string/move_left_description"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/main_FAB_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/right"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_alignParentEnd="true"
+        app:fabSize="normal"
+        app:backgroundTint="@color/pink_button"
+        app:tint="@color/white"
+        android:contentDescription="@string/move_right_description"
+        />
+</RelativeLayout>
+
+
+
+
+

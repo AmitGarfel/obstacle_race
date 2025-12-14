@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_200"
+    tools:context=".GameOverActivity">
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/gameOver_TXT_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="GAME OVER 😭"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/gameover_BTN_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Again"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="@color/pink_button"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>

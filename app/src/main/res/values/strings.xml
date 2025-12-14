@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">obstacle_race</string>
+    <string name="move_right_description">move_right_description</string>
+    <string name="move_left_description">move_left_description</string>
+</resources>
