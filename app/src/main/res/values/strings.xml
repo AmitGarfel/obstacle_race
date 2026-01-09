@@ -2,4 +2,6 @@
     <string name="app_name">obstacle_race</string>
     <string name="move_right_description">move_right_description</string>
     <string name="move_left_description">move_left_description</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_location_for_score">No location for this score</string>
 </resources>

@@ -4,4 +4,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="blue_200">#90CAF9</color>
     <color name="pink_button">#FF4081</color>
+    <color name="road_gray">#505050</color>
+    <color name="yellow">#FFD700</color>
+
 </resources>

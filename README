@@ -1,0 +1,17 @@
+Project Description
+
+This project is an Android mobile game in the Obstacle Race genre,
+in which the player controls a vehicle, avoids obstacles, and collects coins.
+The game includes a scoring system, distance tracking, a lives (health) system, and control via on-screen buttons or motion sensors.
+
+The score is calculated according to the following formula:
+Distance traveled until game over + (100 × number of coins collected).
+
+Each in-game event provides distinct feedback, including unique sound effects and vibration for collisions with obstacles or collecting coins.
+The game includes a high-score system with optional geographic location support, depending on the user’s permission choice.
+If location permission is denied, the score is saved without location data.
+One-time permission allows location saving only until the application is closed, while permanent permission enables continuous location saving and display on a map.
+As a bonus feature, the game supports sensor-based speed control:
+tilting the device forward increases the game speed, while tilting it backward decreases the speed, allowing dynamic control of gameplay difficulty.
+The project was developed with an emphasis on modular architecture, clear separation of responsibilities,
+use of external services as independent components, and proper handling of the Android application lifecycle.

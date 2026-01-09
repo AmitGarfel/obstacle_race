@@ -5,9 +5,639 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blue_200"
-    tools:context=".MainActivity">
+    android:background="@color/road_gray"
+    android:fitsSystemWindows="true"
+    android:paddingTop="8dp"
+    tools:context=".Activities.MainActivity">
 
+    <!-- LEFT YELLOW BORDER -->
+    <View
+        android:layout_width="6dp"
+        android:layout_height="match_parent"
+        android:background="@color/yellow" />
+
+    <!-- RIGHT YELLOW BORDER -->
+    <View
+        android:layout_width="6dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:background="@color/yellow" />
+
+    <!-- Logical Matrix -->
+    <LinearLayout
+        android:id="@+id/main_LAY_matrix"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingBottom="80dp">
+
+        <!-- Row 0 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_00"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_01"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_02"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                />
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_03"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_04"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+
+        </LinearLayout>
+
+        <!-- Row 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_10"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+            <!-- קו לבן -->
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_11"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+            <!-- קו לבן -->
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_12"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+            <!-- קו לבן -->
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_13"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+            <!-- קו לבן -->
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_14"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+
+        </LinearLayout>
+
+        <!-- Row 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_20"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_21"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_22"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_23"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_24"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+
+        </LinearLayout>
+
+        <!-- Row 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_30"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+            <!-- קו לבן -->
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_31"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+            <!-- קו לבן -->
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_32"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+            <!-- קו לבן -->
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_33"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+            <!-- קו לבן -->
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_34"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+        </LinearLayout>
+
+        <!-- Row 4 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_40"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_41"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_42"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_43"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_44"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+        </LinearLayout>
+
+        <!-- Row 5 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_50"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+            <!-- קו לבן -->
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_51"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+            <!-- קו לבן -->
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_52"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+            <!-- קו לבן -->
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_53"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+            <!-- קו לבן -->
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_54"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+
+        </LinearLayout>
+
+        <!-- Row 6 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_60"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_61"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_62"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_63"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_64"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+
+        </LinearLayout>
+
+        <!-- Row 7 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_70"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+            <!-- קו לבן -->
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_71"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+            <!-- קו לבן -->
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_72"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+            <!-- קו לבן -->
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_73"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+            <!-- קו לבן -->
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_74"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+        </LinearLayout>
+
+        <!-- Row 8 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_80"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_81"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_82"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_83"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_84"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+        </LinearLayout>
+
+        <!-- Row 9 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_90"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+            <!-- קו לבן -->
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_91"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+            <!-- קו לבן -->
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_92"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+            <!-- קו לבן -->
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_93"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+
+            <!-- קו לבן -->
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_94"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:id="@+id/main_LAY_hearts"
@@ -23,6 +653,7 @@
             android:layout_width="@dimen/heart_size"
             android:layout_height="@dimen/heart_size"
             app:srcCompat="@drawable/heart" />
+
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/main_IMG_heart1"
@@ -40,130 +671,58 @@
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
-    <!-- Logical Matrix -->
     <LinearLayout
-        android:id="@+id/main_LAY_matrix"
-        android:layout_width="match_parent"
+        android:id="@+id/main_LAY_coins"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_below="@id/main_LAY_hearts"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="100dp" >
+        android:layout_marginTop="12dp"
+        android:gravity="center_vertical"
+        android:elevation="8dp">
 
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/main_IMG_coin_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/coin"
+            android:contentDescription="coin"
+            android:scaleType="centerInside"/>
 
-        <!-- Row 1 -->
-        <LinearLayout
-            android:layout_width="match_parent"
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/main_TXT_coins"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center">
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_00" android:layout_width="80dp" android:layout_height="60dp"/>
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_01" android:layout_width="80dp" android:layout_height="60dp"/>
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_02" android:layout_width="80dp" android:layout_height="60dp"/>
-        </LinearLayout>
-
-        <!-- Row 2 -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center">
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_10" android:layout_width="80dp" android:layout_height="60dp"/>
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_11" android:layout_width="80dp" android:layout_height="60dp"/>
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_12" android:layout_width="80dp" android:layout_height="60dp"/>
-        </LinearLayout>
-
-        <!-- Row 3 -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center">
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_20" android:layout_width="80dp" android:layout_height="60dp"/>
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_21" android:layout_width="80dp" android:layout_height="60dp"/>
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_22" android:layout_width="80dp" android:layout_height="60dp"/>
-        </LinearLayout>
-
-        <!-- Row 4 -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center">
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_30" android:layout_width="80dp" android:layout_height="60dp"/>
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_31" android:layout_width="80dp" android:layout_height="60dp"/>
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_32" android:layout_width="80dp" android:layout_height="60dp"/>
-        </LinearLayout>
-
-        <!-- Row 5 -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center">
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_40" android:layout_width="80dp" android:layout_height="60dp"/>
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_41" android:layout_width="80dp" android:layout_height="60dp"/>
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_42" android:layout_width="80dp" android:layout_height="60dp"/>
-        </LinearLayout>
-
-        <!-- Row 6 -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center">
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_50" android:layout_width="80dp" android:layout_height="60dp"/>
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_51" android:layout_width="80dp" android:layout_height="60dp"/>
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_52" android:layout_width="80dp" android:layout_height="60dp"/>
-        </LinearLayout>
-
-        <!-- Row 7 -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center">
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_60" android:layout_width="80dp" android:layout_height="60dp"/>
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_61" android:layout_width="80dp" android:layout_height="60dp"/>
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_62" android:layout_width="80dp" android:layout_height="60dp"/>
-        </LinearLayout>
-
-        <!-- Row 8 -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center">
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_70" android:layout_width="80dp" android:layout_height="60dp"/>
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_71" android:layout_width="80dp" android:layout_height="60dp"/>
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_72" android:layout_width="80dp" android:layout_height="60dp"/>
-        </LinearLayout>
-
-        <!-- Row 9 -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center">
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_80" android:layout_width="80dp" android:layout_height="60dp"/>
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_81" android:layout_width="80dp" android:layout_height="60dp"/>
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_82" android:layout_width="80dp" android:layout_height="60dp"/>
-        </LinearLayout>
-
-        <!-- Row 10 -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center">
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_90" android:layout_width="80dp" android:layout_height="60dp"/>
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_91" android:layout_width="80dp" android:layout_height="60dp"/>
-            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/main_IMG_92" android:layout_width="80dp" android:layout_height="60dp"/>
-        </LinearLayout>
-
+            android:text="0"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="6dp"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3"/>
     </LinearLayout>
 
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/main_TXT_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 m"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:elevation="8dp"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/main_FAB_left"
@@ -192,6 +751,18 @@
         app:tint="@color/white"
         android:contentDescription="@string/move_right_description"
         />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/main_FAB_back_to_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_home"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        app:backgroundTint="@color/pink_button"
+        app:tint="@color/white"
+        android:contentDescription="Back to Menu"/>
 </RelativeLayout>
 
 
